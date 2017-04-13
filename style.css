@@ -1,0 +1,92 @@
+body {
+    background-image: url('oceanbg.jpg');
+    background-attachment: fixed;
+    font: 18px Helvetica Neue;
+    font-weight: 200;
+}
+
+a:link, a:active, a:visited {
+    font: 15px Helvetica Neue;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+a:hover {
+    font: 15px Helvetica Neue;
+    font-weight: 400;
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: square;
+}
+
+div#freq {
+    background: rgba(255, 255, 255, 0);
+}
+div {
+    height: inherit;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    font: 18px Helvetica Neue;
+    font-weight: 200;
+}
+
+span#hello {
+    font: Helvetica Neue;
+    color: #fdf8b7;
+}
+
+div#CNNfeed, div#FOXfeed {
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    font: 14px Helvetica Neue;
+    font-weight: 400;
+}
+
+div#cnnstory, div#foxstory {
+    padding: 10px;
+    background: rgba(255, 255, 255, 0);
+    font: 14px Helvetica Neue;
+    font-weight: 400;
+}
+
+#cnnstory a:link {
+    font: 16px Helvetica Neue;
+    color: #34486b;
+    font-weight: 500px;
+    text-decoration: none;
+}
+
+#cnnstory a:hover {
+    font: 16px Helvetica Neue;
+    color: #FFFFFF;
+    font-weight: 500px;
+    text-decoration: underline;
+}
+
+#foxstory a:link {
+    font: 16px Helvetica Neue;
+    color: #34486b;
+    font-weight: 500px;
+    text-decoration: none;
+}
+
+#foxstory a:hover {
+    font: 16px Helvetica Neue;
+    color: #FFFFFF;
+    font-weight: 500px;
+    text-decoration: underline;
+}
+
+h2.anda {
+    font: 72px Helvetica Neue;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+h1 {
+    font: 36px Helvetica Neue;
+    font-weight: 200;
+}

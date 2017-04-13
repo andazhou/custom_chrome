@@ -1,0 +1,23 @@
+{
+  "name": "Custom Dash",
+  "description": "Override new tab page for own HTML dash",
+  "version": "0.1",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "dash.html"
+  },
+  "browser_action": {
+    "default_title": "Split screen",
+    "default_icon": "images/icon.png"
+  },
+  "background": {
+    "scripts": ["split.js"],
+    "persistent": false
+  },
+  "permissions": ["http://*/", "tabs", "activeTab"],
+  "content_scripts": [{
+    "matches": ["http://*/"],
+    "js": ["jquery.js", "rssparser.js"]
+  }],
+  "manifest_version": 2
+}
